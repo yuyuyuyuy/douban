@@ -1,0 +1,770 @@
+/*清理阶段*/
+*{
+	margin:0;
+	padding:0;
+	font:12px Arial,Helvetica,sans-serif;
+	
+}
+a
+{
+	text-decoration: none;
+	color:#3377AA;
+	font-family: Arial,Helvetica,sans-serif;
+	cursor: pointer; 
+                         /*当鼠标放上去时候出现手形*/
+}
+a:hover{
+	background-color:#3377AA;
+	color:#fff;
+}
+
+/*清理阶段结束*/
+/*顶部区域*/
+#hd-header
+{
+	height:90px;
+	width:952px;
+	margin:0 auto;
+	position:relative;
+}
+#hd-header a img
+{
+	position:absolute;
+	top:30px;
+	left:0;
+}
+#hd-header .hd-input
+{
+	width:262px;
+	height:32px;
+	border-radius:2px;
+	border:1px solid #c3c3c3;
+	color:#c3c3c3;
+	padding-left:6px;
+	position:absolute;
+	left:184px;
+	top:32px;
+}
+#hd-header p
+{
+	background:url(../img/bn_srh_1.png) no-repeat;
+	width:13px;
+	height:13px;
+	position:absolute;
+	left:430px;
+	top:44px;
+
+}
+#hd-header ul
+{
+	width:400px;
+	height:24px;
+	position:absolute;
+	left:493px;
+	top:36px;
+	list-style: none;
+}
+#hd-header li
+{
+	float:left;
+}
+#hd-header li a
+{
+    display: block;
+    width:50px;
+    height:20px;
+}
+#hd-header .hd-book
+{
+	background:url(../img/anony_nav_logo.png) 0 0 no-repeat ;
+}
+#hd-header .hd-movie
+{
+	background:url(../img/anony_nav_logo.png) -60px 0 no-repeat ;
+}
+#hd-header .hd-music
+{
+	background:url(../img/anony_nav_logo.png) -120px 0 no-repeat ;
+}
+#hd-header .hd-group
+{
+	background:url(../img/anony_nav_logo.png) -180px 0 no-repeat ;
+}
+#hd-header .hd-city
+{
+	background:url(../img/anony_nav_logo.png) -235px 0 no-repeat ;
+}
+#hd-header .hd-fm
+{
+	background:url(../img/anony_nav_logo.png) -295px 0 no-repeat ;
+}
+#hd-header .hd-thing
+{
+	background:url(../img/anony_nav_logo.png) -355px 0 no-repeat ;
+}
+#hd-header .hd-shop
+{
+	background:url(../img/anony_nav_logo.png) -415px 0 no-repeat ;
+}
+/* 顶部结束*/
+/* 注册区域*/
+.hd-reg
+{
+	background:url(../img/doubanapp4_bg.png) no-repeat center;
+	height:182px;
+	
+}
+.hd-reg .reg-box{
+	width:952px;
+	height:180px;
+	position:relative;
+	margin:0 auto;
+}
+.hd-reg .hd-app
+{
+	letter-spacing:8px;
+	position:absolute;
+	left:432px;
+	top:36px;
+	line-height:40px;
+}
+.hd-reg .hd-app h2{
+	color:black;
+	font-size: 18px;
+	font-weight:600;
+}
+.hd-reg .hd-app p
+{
+	font-weight: 500;
+	font-size:14px;
+	margin-top:7px;
+	margin-bottom:10px;
+}
+
+.hd-reg .hd-app .hd-downbtn
+{
+	width:74;
+	height:30px;
+	background-color:#00b51d;
+	color:#ffffff;
+	border-radius:5px;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:17px;
+}
+.hd-reg .hd-app .hd-erweima
+{
+	width:35px;
+	height:35px;
+	position:absolute;
+	left:125px;
+	top:76px;
+}
+
+
+.hd-log
+{
+	position:absolute;
+	top:30px;
+	right:0;
+}
+.hd-log .hd-log-box1,.hd-log-box2
+{
+	width:262px;
+	height:32px;
+	color:#e4e4e4;
+	display:block;
+	border-radius: 2px;
+	border:1px solid #e4e4e4;
+	padding-left:8px;
+}
+.hd-log-box1
+{
+    margin-bottom:5px;	
+}
+.hd-log  p
+{
+	color:#e4e4e4;
+	font-size:13px;
+	position:relative;       /*相对于自身原来的位置移动所以是relative*/
+	left:235px;
+	top:-26px;
+}
+
+ .hd-log .hd-log-douban,.hd-log-zhuce
+ {
+ 	width:132px;
+ 	height:30px;
+ 	border-radius:2px;
+ 	text-align:center;
+ 	margin-top:-10px;
+ 	border: 1px solid #30a080;
+
+ }
+ .hd-log .hd-log-douban
+ {
+ 	background-color:#30a080;
+ 	color:#ffffff;
+ }
+ .hd-log-doa:hover
+ {
+   background-color:#238166;
+ }
+ .hd-log .hd-log-zhuce
+ {
+ 	color:#30a080;
+ }
+ .hd-log .hd-log-rember
+ {
+ 	display:block;
+ 	font-size:10px;
+ 	position:absolute;
+	right:210px;
+	top:130px;
+ }
+.hd-log .hd-log-rember span
+{
+	position:relative;
+	top:-2.5px;
+	color:#9e7a8b;
+}
+/*注册部分结束*/
+
+/*广告开始*/
+ #hd-message{
+ 	margin:0 auto ;
+ 	margin-top:35px;
+ 	width:952px;
+ }
+ /*广告结束*/
+
+/*内容部分开始*/
+#hd-con{
+	height:522px;
+	width:952px;
+	margin:0 auto;
+	margin-top:-5px;
+	position:relative;
+}
+ .title{
+    font:15px Arial,Helvetica,sans-serif;
+    color:#007722;
+    padding-top:12px;
+    padding-bottom:12px
+}
+#hd-con .con-left{
+	height:410px;
+	width:353px;
+	float:left;
+	position:absolute;
+	top:44px;
+}
+
+#hd-con .con-mid{
+	height:403px;
+	width:303px;
+	position:absolute;
+	top:44px;
+	left:378px;
+	color:#7e7575;
+}
+#hd-con .con-right{
+	height:403px;
+	width:268px;
+	position:absolute;
+	top:44px;
+	right:0;
+	color:#7e7575;
+}
+#hd-con .con-right .right-img{
+	height:112px;
+	width:268px;
+}
+
+#hd-con .con-left p{
+	text-align:center;
+	color:#7e7575;
+}
+.con-left .left-img1{
+	height:200px;
+	width:165px;
+	float:left;
+	
+}
+.con-left .left-img2{
+	height:200px;
+	width:165px;
+    float:right;
+}
+/*内容部分结束*/
+
+/*电影部分开始*/
+#hd-movie-background{
+	height:775px;
+	background-color:#f7f7f7;
+	margin-top:68px;
+}
+#hd-movie{
+	height:775px;
+	width:952px;
+	margin:0 auto;
+	position:relative;
+}
+.hd-movie-bar{
+	width:122px;
+	float:left;
+	margin-top:34px;
+}
+ .hd-movie-bar li {
+	line-height:30px;
+	list-style: none;
+}
+ .hd-movie-bar li a{
+	font-size:14px;
+}
+.hd-movie-bar li a:hover{
+	color:#fff;
+}
+ .hd-movie-bar li .dianying{
+	font-size:24px;
+}
+/*电影左边部分*/
+/*电影中间部分开始*/
+ .hd-movie-mid{
+	width:563px;
+	float:left;
+}
+.hd-movie-mid ul{
+	padding-left:15px;
+}
+.hd-movie-mid ul li {
+	list-style:none;
+    width:100px;
+    float:left;
+    margin-right:33px;
+    margin-bottom:40px;
+    position:relative;
+}
+
+.hd-movie-mid ul li h4
+{
+	text-align: center;  
+	margin-top:16px;                   
+}
+.hd-movie-mid ul li h4 a{
+	color:#000000;
+	font-size:13px;
+}
+.hd-movie-mid ul li h4 a:hover{
+     color:#ffffff ;
+}
+.hd-movie-mid ul li div {
+	width:55px;
+	height:11px;
+	margin-top:9px;
+	margin-left:15px;
+}
+.hd-movie-mid ul li .mid-icon1{
+  background:url(../img/ic_rating_s.png) 0 -55px;
+}
+.hd-movie-mid ul li span{
+	color:#ffac2d;
+	position:absolute;
+	top:182px;
+	left:74px;
+
+}
+.hd-movie-mid ul li a p{
+	color:#fff;
+	font-size:12px;
+	line-height:24px;
+	height:24px;
+	width:68px;
+	background-color:#1c8bd0;
+	text-align:center;
+	border-radius:3px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.hd-movie-mid ul li p:hover{
+	background-color:#1c78b1;
+}
+.hd-movie-mid ul li .moive-jingang
+{
+	text-align: center;  
+	margin-top:8px;                       /* a标签不能设置text-align center吗*/
+}
+.hd-movie-mid ul li .mid-icon2{
+	background:url(../img/ic_rating_s.png) 0 -33px;
+}
+.hd-movie-mid ul li .mid-icon3{
+	color:#262829;
+    margin:0 auto;
+    margin-top:5px; 
+	text-align: center;
+}
+.hd-movie-mid ul li .mid-icon4{
+	background:url(../img/ic_rating_s.png) 0 -33px;
+}
+.hd-movie-mid ul li .mid-icon5{
+	color:#262829;
+    margin:0 auto;
+	margin-top:5px;
+	text-align: center;
+	
+}
+.hd-movie-mid ul li .mid-icon6{
+	background:url(../img/ic_rating_s.png) 0 -44px;
+	margin-top:10px;
+}
+.hd-movie-mid ul li .mid-icon7{
+	background:url(../img/ic_rating_s.png) 0 -22px;
+}
+.hd-movie-mid ul li .mid-icon8{
+	background:url(../img/ic_rating_s.png) 0 -22px;
+}
+/*电影中间部分结束*/
+/*电影右边部分开始*/
+.hd-moive-type{
+	width:260px;
+	float:left;
+}
+.hd-moive-type .moive-type{
+	width:260px;
+}	
+.hd-moive-type .moive-type li{
+	float:left;
+	width:50px;
+	line-height:25px;
+	list-style:none;
+}
+.hd-moive-type .moive-resent
+{
+	width:260px;
+	list-style:decimal;
+	clear:both;
+}
+.title1{
+	padding-top:40px;
+}
+ .moive-resent li
+{
+	border-bottom:1px solid #e0dede;
+	padding:10px;
+	margin-left:20px;
+}
+/*电影右边部分结束*/
+.img2{
+	position:absolute;
+	left:0;
+	bottom:43px;
+}
+
+/*电影区域结束*/
+/*三小组部分开始*/
+#hd-group{
+	height:775px;
+	width:952px;
+	margin:0 auto;
+	clear:both;
+}
+/*三小组中间开始*/
+ .hd-book-mid{
+	width:563px;
+	height:775px;
+	float:left;
+}
+.book-mid  li{
+	list-style:none;
+	width:277px;
+	height:92px;
+	float:left;
+	position:relative;
+}
+ .book-mid li .book-decor{
+	width:180px;
+	display:inline;
+	position:absolute;
+	left:64px;
+}
+ .book-mid li .book-decor a{
+		line-height:20px;
+		font-size:13px;
+}
+.book-mid li .book-decor p{
+	margin-top:5px;
+	font-size:13px;
+	color:#aa99bb;
+}
+/*小组中间部分结束*/
+/*小组右边部分开始*/
+.moive-group p{
+	margin-top:15px;
+	margin-bottom:2px;
+}
+ .moive-group li
+{   
+	display:inline;
+	padding-right:0.5em;
+	line-height:23px;
+}
+/*三小组部分结束*/
+/*四读书部分开始*/
+#hd-bg-book{
+	background-color:#f7f7f7;
+	height:680px;
+	width:100%;
+}
+.hd-books{
+	height:680px;
+	width:952px;
+	margin:0 auto;
+}
+.hd-books .hd-movie-mid a,.hd-books .hd-movie-bar a{
+	color:#4a2f14;
+}
+.hd-books a:hover{
+	color:#fff;
+}
+ .hd-movie-bar div{
+	width:50px;
+	height:53px;
+    margin-top:30px;
+	border-radius:10px;
+	box-shadow:0 0 5px #000;
+	}
+ .hd-movie-bar div.left-img{
+	background:url(../img/app_icons_50_10.jpg);
+}
+.hd-books .hd-movie-mid img{
+	width:100px;
+	height:140px;
+}
+.book-mid-list .book-mid-list li .book-author{
+	color:black;
+	display:block;
+}
+.hd-books .hd-movie-mid p{
+	text-align:center;
+}
+.hd-books .hd-movie-mid ul a.free{
+	display:block;
+	height:24px;
+	width:68px;
+	line-height:24px;
+	text-align:center;
+	background-color:#999a95;
+	border-radius:3px;
+	color:#fff;
+	margin:0 auto;
+}
+.hd-books .hd-movie-mid ul a.free:hover{
+	background-color:#868784;
+}
+.hd-books .hd-movie-mid ul h5{
+	text-align:center;
+	margin-top:12px;
+	margin-bottom:3px;
+	color:black;
+}
+.hd-books .hd-movie-mid ul h6{
+	text-align:center;
+	color:#999a95;
+}
+/*读书中间部分结束*/
+/*读书右侧部分开始*/
+.hd-book-right{
+    width:260px;
+	float:left;
+}
+.hd-book-right .moive-group li.guide{
+	color:#999a95;
+}
+.hd-book-right .moive-group,hr{
+	margin-top:14px;
+}
+.hd-book-right hr{
+	color:#eaeaea
+}
+/*4读书右侧部分结束*/
+/*
+ /*五、音乐部分开始*/
+#hd-mis{
+	width:952px;
+	height:983px;
+	margin:0 auto;
+}
+#hd-mis ul a,h6{
+	color:#555d53;
+	
+}
+#hd-mis ul .dianying{
+	color:#f58c00;
+	font-weight:bold;
+}
+.hd-movie-bar div.left-img2{
+	background:url(../img/app_icons_50_10.jpg) -250px 0;
+}
+.hd-movie-bar div.left-img3{
+	background:url(../img/app_icons_50_10.jpg) -50px;;
+}
+/*音乐中间部分开始*/
+#hd-mis .hd-movie-mid{
+	height:850px;
+}
+#hd-mis  .hd-movie-mid ul li img{
+	width:83px;
+	height:78px;
+}
+#hd-mis a:hover{
+	color:#fff;
+}
+#hd-mis ul li span{
+	position:absolute;
+	top:140px;
+	left:70px;
+}
+#hd-mis  .hd-movie-mid h6{
+	text-align:center;
+}
+#hd-mis  .hd-movie-mid li{
+	width:83px;
+}
+#hd-mis  .hd-movie-mid ul:nth-of-type(2) li i{
+	background:url(../img/timeline-player-cover.png) no-repeat;
+	width:43px;
+	height:43px;
+	display:block;
+	opacity: 0.6;
+	position:absolute;
+	left:21px;
+	top:20px;
+	
+}
+#hd-mis  .hd-movie-mid div{
+	position:relative;
+	left:-5px;
+}
+#hd-mis  .hd-movie-mid .title2{
+	clear:both;
+}
+/*音乐部分中间结束*/
+/*音乐部分右边开始*/
+.mis-right{
+    width:260px;
+	float:left;
+}
+.mis-right ul li{
+	width:258px;
+	list-style: decimal;
+}
+.mis-right .book-mid li .book-decor p{
+	margin-top:0;
+}
+/*音乐部分结束*/
+
+/*集市部分开始*/
+#bg-market{
+	height:820px;
+	background-color:#f7f7f7;
+	width:100%;
+}
+#bg-market .market{
+	height:820px;
+	width:956px;
+	margin:0 auto;
+}
+#bg-market .hd-movie-bar  a,h6{
+	color:#555d53;
+}
+#bg-market ul .dianying{
+	color:#1f9432;
+	font-weight:bold;
+}
+#bg-market a:hover{
+	color:#fff;
+}
+#bg-market .market-mid{
+	width:564px;
+	float:left;
+	margin-bottom: 60px;;
+}
+#bg-market .market-mid ul:nth-of-type(1){
+	width:100%;
+	height:259px;
+	margin-bottom:40px;
+}
+#bg-market .market-mid ul li{
+	list-style: none;
+	float:left;
+	margin-right:20px;
+	margin-bottom:12px;
+}
+#bg-market .market-mid ul li img{
+	width:110px;
+	height:112px;
+}
+#bg-market .market-mid ul li p a{
+	text-align: center;
+}
+#bg-market .market-mid ul li p span {
+	color:#6a6a83;
+	position:absolute;
+	right:0;
+}
+#bg-market .market-mid ul li:nth-of-type(1){
+	width:250px;
+	height:270px;
+	position:relative;
+}
+#bg-market .market-mid ul li:nth-of-type(1) img{
+	width:250px;
+	height:251px;
+}
+.mis-right ul li{
+	width:258px;
+	list-style: none;
+}
+.mis-right .book-mid li img{
+	width:62px;
+	height:61px;
+}
+/*集市部分结束*/
+#hd-finish{
+	height:134px;
+	width:952px;
+	margin:0 auto;
+	margin-top:35px;
+	color:#999999;
+	
+}
+#hd-finish hr{
+	border:none ;
+	border-top:1px dotted #999;
+	
+}
+#hd-finish .finish-left{
+	width:500px;
+	margin-top: 20px;
+	float:left;
+}
+#hd-finish .finish-left p{
+	line-height:20px;
+}
+#hd-finish .finish-right{
+	width:448px;
+	margin-top: 20px;
+	float:left;
+}
+#hd-finish .finish-right ul{
+	margin-bottom: 23px;
+}
+#hd-finish .finish-right ul li{
+	display:inline;
+	list-style: none;
+	padding-right: 11px;
+	
+}
+
+
